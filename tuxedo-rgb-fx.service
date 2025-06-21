@@ -1,0 +1,15 @@
+[Unit]
+Description=Tuxedo Keyboard RGB FX Daemon
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /usr/local/bin/tuxedo-rgb-fx.py
+KillSignal=SIGTERM
+# Restart only if the script crashes with an error.
+# Do not restart if stopped manually by the user or systemctl.
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
