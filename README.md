@@ -5,7 +5,6 @@ A robust `systemd` service that creates a smooth, aesthetically-pleasing "chamel
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ![Demo GIF](demo.gif)
-*(A demo GIF is highly recommended to showcase the effect!)*
 
 ## Features
 
