@@ -69,7 +69,7 @@ Once installed, you manage the effect using `systemctl`, the standard tool for c
 
 ### Creating Keyboard Shortcuts (KDE Plasma Example)
 
-For удобство, you can create separate shortcuts to start and stop the effect. This is the most reliable method.
+For KDE Plasma, you can create separate shortcuts to start and stop the effect. This is the most reliable method.
 
 1.  **Allow Passwordless Control:**
     First, you need to allow your user to control this specific service without a password. Run `sudo visudo` and add the following line at the very end of the file, replacing `your_username` with your actual username:
